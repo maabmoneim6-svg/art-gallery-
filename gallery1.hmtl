@@ -1,0 +1,42 @@
+`html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery 1</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    h1 { margin-top: 20px; }
+    img { margin: 10px; border: 1px solid #ccc; }
+    .header { width: 80%; margin: 20px auto; display: block; }
+    section { margin: 20px; }
+    address { font-style: normal; margin: 10px; }
+    a { color: #0b5bd3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <a href="proj1.html">
+    <img src="gallery-thin.png" alt="Gallery Header" class="header">
+  </a>
+
+  <h1>Gallery 1</h1>
+
+  <section>
+    <h2>العنوان</h2>
+    <address>
+      اكتب عنوان المعرض هنا<br>
+      <a href="https://maps.google.com/?q=LAT,LON">عرض على الخريطة</a>
+    </address>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <img src="gallery1-1.jpg" alt="Gallery 1 Highlight 1" width="250">
+    <img src="gallery1-2.jpg" alt="Gallery 1 Highlight 2" width="250">
+    <img src="gallery1-3.jpg" alt="Gallery 1 Highlight 3" width="250">
+    <img src="gallery1-4.jpg" alt="Gallery 1 Highlight 4" width="250">
+  </section>
+</body>
+</html>
+`
